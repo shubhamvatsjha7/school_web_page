@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My New School</title>
+    <link rel="stylesheet" href="schoolnew.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo.png" class="logo" /></a>
+        <div class="navbar" id="navBar">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="facilities.html">FACILITIES</a></li>
+            <li><a href="gallery.html">GALLERY</a></li>
+            <li><a href="registerlogin.html">REGISTER AND LOGIN</a></li>
+            <li><a href="contactus.html">CONTACT US</a></li>
+            <div class="search">
+              <input
+                class="srch"
+                type="search"
+                name=""
+                placeholder="Search For More"
+              />
+              <a href="#"> <button class="btn">Search</button></a>
+            </div>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>FACILITIES</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident velit
+        quidem, temporibus nostrum est architecto quos nisi.
+      </p>
+    </section>
+
+    <!--facilities-->
+    <section class="facilities">
+      <div class="row">
+        <div class="facilities-col">
+          <img
+            src="https://www.enr.com/ext/resources/Issues/MountainSt_Issues/2016/October/24-Oct/DPS-Northfield-Exterior.jpg"
+          />
+          <div class="layer">
+            <h3>Campus</h3>
+          </div>
+        </div>
+        <div class="facilities-col">
+          <img
+            src="https://assets.website-files.com/604a97c70aee09eed25ce991/61897a35583a9b51db018d3e_MartinPublicSeating-97560-Importance-School-Library-blogbanner1.jpg"
+          />
+          <div class="layer">
+            <h3>Library</h3>
+          </div>
+        </div>
+        <div class="facilities-col">
+          <img
+            src="https://alagujothiacademy.in/wp-content/uploads/2022/05/school-van.jpg"
+          />
+          <div class="layer">
+            <h3>Transport</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--footer-->
+
+    <section class="footer">
+      <h4>Visit Our Social Media Handles</h4>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur
+        quam placeat voluptas vero tempora quasi aspernatur, et esse<br />
+        maxime, illum praesentium ipsam, nesciunt at saepe ipsa. Ab eos debitis
+        unde?
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+        <i class="fa fa-youtube"></i>
+      </div>
+      <p>
+        Proudly made with <i class="fa fa-heart"></i> by SVJ<br />
+        All <i class="fa fa-copyright"></i> Reserved
+      </p>
+    </section>
+
+    <!------JS------>
+    <script>
+      var navBar = document.getElementById("navBar");
+      function showMenu() {
+        navBar.style.right = "0";
+      }
+      function hideMenu() {
+        navBar.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
