@@ -733,3 +733,14 @@ h3 {
   border: 1px solid magenta;
   box-sizing: border-box;
 }
+
+/*-- Custom Scrollbar --*/
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(176, 240, 240);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#642bff, #ff22e6);
+}
